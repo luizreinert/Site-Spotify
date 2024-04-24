@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" lang="pt-br">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify - Música para todos</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="navbar navbar-expand-xxl bg-dark bg-opacity-75 fixed-top">
+            <nav class= "container-fluid py-2 col-12 col-sm-11">
+                <a href="index.html">
+                    <img src="imagens/spotify.svg" width="200px">
+                </a>
+                <button class="navbar-toggler navbar-btn shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <ion-icon class="icon-toggler" name="menu-outline"></ion-icon>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="list-unstyled navbar-nav align-items-center">
+                        <li class="nav-item px-xxl-3 lead"><a href="#" class="nav-link">Premium</a></li>
+                        <li class="nav-item px-xxl-3 lead"><a href="#" class="nav-link">Ajuda</a></li>
+                        <li class="nav-item px-xxl-3 lead"><a href="#" class="nav-link">Baixar</a></li>
+                        <span class="separator d-xxl-flex d-none">|</span>
+                        <li class="nav-item px-xxl-3 lead"><a href="#" class="nav-link">Inscrever-se</a></li>
+                        <li class="nav-item px-xxl-3 lead"><a href="#" class="nav-link">Entrar</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="page1 container-fluid p-0 d-flex justify-content-center align-items-center">
+            <button class="carousel-control-prev position-relative" type="button" data-bs-target="#carousel-spotify" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <div id="carousel-spotify" class="d-flex carousel slide flex-column row-gap-5 justify-content-center align-content-center align-items-center col-10 col-xxl-8">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h1 class="cover-text text-center py-5">Música para todos</h1>
+                        <div class="row cover-row flex-xxl-row column-gap-5 flex-column align-items-center row-gap-4 row-gap-md-3 justify-content-center row-gap-md-5 col-12 m-auto py-5">
+                            <a href="#" class="cover-btn-free">Aproveite o Spotify Free</a>
+                            <a href="#" class="cover-btn-get">Obtenha o Spotify Premium</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <h1 class="cover-text text-center py-5">As melhores rádios</h1>
+                        <div class="row cover-row flex-xxl-row column-gap-5 flex-column align-items-center row-gap-4 row-gap-md-3 justify-content-center row-gap-md-5 col-12 m-auto py-5">
+                            <a href="#" class="d-inline-flex justify-content-center gap-3 align-items-center cover-btn-ouca">
+                                <ion-icon class="icon-hp" name="headset-outline"></ion-icon>
+                                Ouça agora
+                            </a>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-next position-relative" type="button" data-bs-target="#carousel-spotify" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="page2 d-flex justify-content-around py-5 col-12">
+            <div class="d-flex flex-column flex-xxl-row row-gap-4 col-11 justify-content-around">
+                <div class="album-covers row d-flex flex-row row-gap-4 align-self-center justify-content-center col-11 col-lg-10 col-xxl-5">
+                    <img class="col-6 cover1" src="imagens/img1.jpg">
+                    <img class="col-6 cover2" src="imagens/img2.jpg">
+                    <img class="col-6 cover3" src="imagens/img3.jpg">
+                    <img class="col-6 cover4" src="imagens/img4.jpg">
+                </div>
+                <div class="page2-text d-flex flex-column px-3 px-md-5 px-xxl-0 col-xxl-6">
+                    <h1 class="page2-title text-xxl-start pb-xxl-3">O que o Spotify tem?</h1>
+                    <div class="pt-3">
+                        <h2 class="page2-subtitle">Músicas</h2>
+                        <p class="page2-content">O Spotify tem milhões de músicas. Escute seus sons favoritos, descubra novas músicas e reúna seus favoritos em um só lugar.</p>
+                        <hr>
+                    </div>
+                    <div class="pt-3">
+                        <h2 class="page2-subtitle">Playlists</h2>
+                        <p class="page2-content">No Spotify você encontra uma playlist para cada momento. Todas feitas por fanáticos e especialistas da música.</p>
+                        <hr>
+                    </div>
+                    <div class="pt-3">
+                        <h2 class="page2-subtitle">Novos lançamentos</h2>
+                        <p class="page2-content">Escute os novos lançamentos de singles e álbuns da semana e veja o que está bombando no top 50.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex page3 col-12 pt-4 pb-lg-0 pb-4 justify-content-around">
+            <div class="d-flex flex-column row-gap-4 container-fluid col-12 col-xl-7 ms-0 px-5">
+                <h1 class="page3-title">Fácil</h1>
+                <h2 class="page3-subtitle">Buscar</h2>
+                <p class="page3-content">Já sabe o que escutar? É só procurar e apertar o play</p>
+                <h2 class="page3-subtitle">Navegar<h2>
+                <p class="page3-content">Veja os novos lançamentos, o que está bombando nas paradas e as melhores playlists para o seu momento.</p>
+                <h2 class="page3-subtitle">Descobrir</h2>
+                <p class="page3-content">Curta múscas novas toda segunda-feira com uma playlist personalizada pra você. Ou relaxe e curta uma das rádios.</p>
+            </div>
+            <div class="d-none d-xl-flex iphone-container column-gap-5 justify-content-center">
+                <img class="iphone1" src="imagens/iphone1.png">
+                <img class="iphone2" src="imagens/iphone2.png">
+            </div>
+        </div>
+        <footer class="d-flex flex-row bg-black col-12 py-5">
+            <div class="container-fluid d-flex flex-column flex-lg-row col-12 col-xxl-9 column-gap-4 ms-lg-auto ms-5 row-gap-5 align-items-sm-start justify-content-around">
+                <div>
+                    <a href="#">
+                        <img src="imagens/spotify.svg" width="150px">
+                    </a>
+                </div>
+                <nav>
+                    <ul class="navbar-nav list-unstyled">
+                        <li class="nav-item "><span class="nav-header text-secondary" href="#">Company</a></li>
+                        <li class="nav-item "><a class="nav-link" href="#">Sobre</a></li>
+                        <li class="nav-item "><a class="nav-link" href="#">Empregos</a></li>
+                        <li class="nav-item "><a class="nav-link" href="#">Imprensa</a></li>
+                        <li class="nav-item "><a class="nav-link" href="#">Novidades</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul class="navbar-nav list-unstyled">
+                        <li class="nav-item "><span class="nav-header text-secondary" href="#">Comunidades</a></li>
+                        <li class="nav-item "><a class="nav-link" href="#">Artistas</a></li>
+                        <li class="nav-item "><a class="nav-link" href="#">Desenvolvedores</a></li>
+                        <li class="nav-item "><a class="nav-link" href="#">Marcas</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul class="navbar-nav list-unstyled">
+                        <li class="nav-item "><span class="nav-header text-secondary" href="#">Links úteis</a></li>
+                        <li class="nav-item "><a class="nav-link" href="#">Ajuda</a></li>
+                        <li class="nav-item "><a class="nav-link" href="#">Presentes</a></li>
+                        <li class="nav-item "><a class="nav-link" href="#">Player da web</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul class="nav list-unstyled">
+                        <li class="nav-item me-4">
+                            <a href="#">
+                                <ion-icon class="logos" name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+                        <li class="nav-item me-4">
+                            <a href="#">
+                                <ion-icon class="logos" name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">
+                                <ion-icon class="logos" name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
